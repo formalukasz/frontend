@@ -1,0 +1,80 @@
+<!-- banner -->
+	<div class="banner">
+	<div class="container">
+<!-- Slider-starts-Here -->
+				<script src="js/responsiveslides.min.js"></script>
+				 <script>
+				    // You can also use "$(window).load(function() {"
+				    $(function () {
+				      // Slideshow 4
+				      $("#slider3").responsiveSlides({
+				        auto: true,
+				        pager: true,
+				        nav: true,
+				        speed: 500,
+				        namespace: "callbacks",
+				        before: function () {
+				          $('.events').append("<li>before event fired.</li>");
+				        },
+				        after: function () {
+				          $('.events').append("<li>after event fired.</li>");
+				        }
+				      });
+				
+				    });
+				  </script>
+			<!--//End-slider-script -->
+			<div  id="top" class="callbacks_container">
+				<ul class="rslides" id="slider3">
+					<li>
+						<div class="banner-info">
+							<p class="para">LATEST CLASS</p>
+							<h4>FITNESS AND HEALTH</h4>
+							<p class="para1">Lorem ipsum dolor sit amet, consectetur adipiscin 
+								<span>elit. In ut turpis a erat consectetur euismod.</span>
+								Suspendisse massa magnet and its a du dolor.</p>
+							<div class="skills">
+								<div class="skill" style="width:40%"> </div>							
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="banner-info">
+							<p class="para">FIRST CLASS</p>
+							<h4>FITNESS</h4>
+							<p class="para1">aliquam ipsum ipsum mollis In ut turpis euismod.<span> 
+									Sollicitudin viverra, vel varius  erat consectetur</span> eget a sit mollis ante morbi sed.</p>
+							<div class="skills">
+								<div class="skill" style="width:55%"> </div>							
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="banner-info">
+							<p class="para">SECOND CLASS</p>
+							<h4>HEALTH</h4>
+							<p class="para1">Lorem ipsum dolor sit amet, consectetur adipiscin 
+								<span>elit. In ut turpis a erat consectetur euismod.</span>
+								Suspendisse massa magnet and its a du dolor.</p>
+							<div class="skills">
+								<div class="skill" style="width:75%"> </div>							
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="banner-info">
+							<p class="para">FOURTH CLASS</p>
+							<h4>FITNESS AND HEALTH</h4>
+							<p class="para1">aliquam ipsum ipsum mollis In ut turpis euismod.<span> 
+									Sollicitudin viverra, vel varius  erat consectetur</span> eget a sit mollis ante morbi sed.</p>
+							<div class="skills">
+								<div class="skill" style="width:95%"> </div>							
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+<!-- Slider-ends-Here -->
+	</div>
+	</div>
+<!-- //banner -->
